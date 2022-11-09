@@ -1,0 +1,45 @@
+.epic_container > * {
+    text-align: center;
+}
+
+.epic_container > div:last-child {
+    text-align: end;
+}
+
+.epic_container h1 {
+    font-size: 80px;
+}
+
+.epic_container p {
+    font-size: 45px;
+    margin: 5px 0;
+}
+
+.epic_container .blue {
+    font-size: 55px;
+    padding: 34px;
+    border-radius: 30px;
+    border: 5px solid black;
+}
+
+.epic_container .red {
+    font-size: 50px;
+    box-shadow: black 4px 4px;
+    padding: 5px 35px;
+    margin-top: 250px;
+    margin-right: 20px;
+}
+
+.blue {
+    background-color: #24528e;
+    color: white;
+}
+
+.blue:hover, .red:hover {
+    cursor: pointer;
+}
+
+.red {
+    background-color: #be3b31;
+    color: white;
+}
